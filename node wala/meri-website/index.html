@@ -1,0 +1,40 @@
+<style>
+
+    div{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+    }
+
+    #one{
+        background-color: red;
+    }
+
+    #two{
+        /* jab tag ko fixed ya absolute wagera kren
+        to hamare overlap ka option bhi ajta 
+        kon kisko overlap karega yeh z-index ka high number
+        decide karta, jis tag ka jitna bara z-index hoga
+        wo utna hi aagey aygea
+        */
+        z-index: 20;
+
+        background-color: blue;
+    }
+
+    #three{
+        background-color: aquamarine;
+    }
+
+    #four{
+        background-color: chocolate;
+    }
+
+
+</style>
+
+
+<div id="one"></div>
+<div id="two"></div>
+<div id="three"></div>
+<div id="four"></div>
